@@ -1,3 +1,4 @@
-var person = "Rashid";
-var masssage = "\"Hello ".concat(person, ",would you like to learn some python today?\"");
+"use strict";
+let person = "Rashid";
+let masssage = `"Hello ${person},would you like to learn some python today?"`;
 console.log(masssage);
